@@ -7,5 +7,5 @@ Serves up a list of recipe URLs as a JSON object in a signal.txt file.
 2. Server reads signal and begins the request process.
 3. Server reads the recipies csv data file into a JSON object in memory.
 4. Server write the data object from memory into the recipies JSON file.
-5. Client waits fomr a complete command in the signal file.
+5. Client waits for a 'complete' command in the signal file.
 6. Client reads the JSON object from the JSON file.
